@@ -1,0 +1,33 @@
+#redes{
+    display: flex;
+    flex-direction: row;
+}
+.grupored{
+    height: 175px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 252, 255);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+.grupored:hover{
+cursor: pointer;
+background-color: aliceblue;;
+
+}
+.grupored img{
+    height: 125px;
+    width: 125px;
+}
+@media (max-width: 600px) {
+    #redes 
+    {overflow-x: scroll;}
+
+}
